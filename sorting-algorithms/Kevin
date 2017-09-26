@@ -18,6 +18,9 @@ Variants:
 - Implement cocktail sort (for each pass find both min and max values and sort in both directions). How does this impact performance?
 (https://en.wikipedia.org/wiki/Cocktail_sort)
 
+The algorithm works by comparing each item in the list with the item next to it, and swapping them if required. 
+In other words, the largest element has bubbled to the top of the array. 
+The algorithm repeats this process until it makes a pass all the way through the list without swapping any items.
 */
 
 function bubbleSorting(ary) {
